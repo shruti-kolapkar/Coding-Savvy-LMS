@@ -21,9 +21,7 @@ This project is part of a **learning exercise** and is not intended for producti
 - CSS design principles
 - Basic JavaScript interaction
 
-## 🔗 Live Demo
-
-👉 [View Demo](https://shruti-kolapkar.github.io/Coding-Savvy-LMS/)
+- 
 
 ## 🛠️ How to Run Locally
 
