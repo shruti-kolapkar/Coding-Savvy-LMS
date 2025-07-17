@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Coding Savvy</title>
+    <!-- dont change any here to  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- here dont change any files -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS Animation -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="/css/aboutUs.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="border navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom shadow-sm"
+        style="height: 60px"
+      >
+        <div class="container-fluid" style="background-color: #f2f2f2">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              class="logo-img"
+              src="/images/Final_Logo.png"
+              alt="Company Logo"
+              height="50"
+            />
+          </a>
+          <!-- Hamburger Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/courses-home.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html"
+                  >Project Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/placement.html">Placement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/aboutUs.html">About Us</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/html/blog-html/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/resource.html">Free Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contactUs.html">Contact Us</a>
+              </li>
+            </ul>
+            <!-- Button -->
+            <a href="/" class="btn btn-success ms-3">Get Started</a>
+          </div>
+        </div>
+      </nav>
+      <!-- nav reserved height spacer for medium screens   -->
+      <!-- <div style="margin-top:50px"></div> -->
+
+      <!-- <div class="nav-spacer"></div> -->
+    </header>
+    <!-- header end -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-content" data-aos="fade-up">
+          <h1 class="display-4" style="word-spacing: 1rem">About Us</h1>
+          <p class="lead" style="word-spacing: 0.7rem; letter-spacing: 0.4rem">
+            "Ignite Your Coding Journey With Coding Savvy"
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="our-story" class="section-padding">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="story-image">
+              <img
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+                alt="Team Collaboration"
+                class="img-fluid rounded shadow"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="story-content">
+              <h2 class="section-title">Our Story</h2>
+              <p class="story-text">
+                Our vision is to empower businesses and individuals by providing
+                innovative solutions that drive growth and success. We believe
+                in harnessing the power of technology to create meaningful
+                change.
+              </p>
+
+              <div class="mission-vision">
+                <div class="mission-box">
+                  <h3>Our Mission</h3>
+                  <p>
+                    To accelerate businesses and individuals by providing
+                    innovative solutions with cutting-edge technology and
+                    personalized support.
+                  </p>
+                </div>
+                <div class="vision-box">
+                  <h3>Our Vision</h3>
+                  <p>
+                    To be a leading force in the digital space, helping clients
+                    create a strong online presence and achieve their goals
+                    through technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey Timeline Section -->
+    <section id="journey" class="section-padding bg-light">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">
+          Our Journey
+        </h2>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>2004</h3>
+              <p>
+                Company founded with a vision to transform digital landscape
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>2010</h3>
+              <p>Expanded services to include mobile app development</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>2015</h3>
+              <p>Reached milestone of 1000+ successful projects</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>2020</h3>
+              <p>Launched AI-powered solutions division</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>2024</h3>
+              <p>Global expansion with offices in 10+ countries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="section-padding">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">
+          Why Choose Us?
+        </h2>
+        <div class="row">
+          <!-- Feature 1 -->
+          <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up">
+            <div class="feature-card">
+              <div class="icon-box">
+                <i class="fas fa-database"></i>
+              </div>
+              <h4>Data Management</h4>
+              <p>Secure and efficient data storage solutions</p>
+            </div>
+          </div>
+          <!-- Feature 2 -->
+          <div
+            class="col-md-3 col-sm-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="feature-card">
+              <div class="icon-box">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h4>24/7 Support</h4>
+              <p>Round-the-clock technical assistance</p>
+            </div>
+          </div>
+          <!-- Feature 3 -->
+          <div
+            class="col-md-3 col-sm-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="feature-card">
+              <div class="icon-box">
+                <i class="fas fa-download"></i>
+              </div>
+              <h4>Easy Setup</h4>
+              <p>Quick and simple implementation process</p>
+            </div>
+          </div>
+          <!-- Feature 4 -->
+          <div
+            class="col-md-3 col-sm-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="feature-card">
+              <div class="icon-box">
+                <i class="fas fa-headset"></i>
+              </div>
+              <h4>Expert Support</h4>
+              <p>Dedicated technical team at your service</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section-padding bg-light">
+      <div class="responsive-container-block container">
+        <p class="text-blk team-head-text">Our Team</p>
+        <div class="responsive-container-block">
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+          >
+            <div class="card">
+              <div class="team-image-wrapper">
+                <img
+                  class="team-member-image"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                />
+              </div>
+              <p class="text-blk name">Davis George</p>
+              <p class="text-blk position">CEO</p>
+              <p class="text-blk feature-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="social-icons-new">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    class="twitter-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
+                  />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    class="facebook-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+          >
+            <div class="card">
+              <div class="team-image-wrapper">
+                <img
+                  class="team-member-image"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"
+                />
+              </div>
+              <p class="text-blk name">Davis George</p>
+              <p class="text-blk position">CEO</p>
+              <p class="text-blk feature-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="social-icons-new">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    class="twitter-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
+                  />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    class="facebook-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+          >
+            <div class="card">
+              <div class="team-image-wrapper">
+                <img
+                  class="team-member-image"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png"
+                />
+              </div>
+              <p class="text-blk name">Davis George</p>
+              <p class="text-blk position">CEO</p>
+              <p class="text-blk feature-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="social-icons-new">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    class="twitter-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
+                  />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    class="facebook-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+          >
+            <div class="card">
+              <div class="team-image-wrapper">
+                <img
+                  class="team-member-image"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png"
+                />
+              </div>
+              <p class="text-blk name">Davis George</p>
+              <p class="text-blk position">CEO</p>
+              <p class="text-blk feature-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="social-icons-new">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    class="twitter-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
+                  />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    class="facebook-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+          >
+            <div class="card">
+              <div class="team-image-wrapper">
+                <img
+                  class="team-member-image"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"
+                />
+              </div>
+              <p class="text-blk name">Davis George</p>
+              <p class="text-blk position">CEO</p>
+              <p class="text-blk feature-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="social-icons-new">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    class="twitter-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
+                  />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    class="facebook-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+          >
+            <div class="card">
+              <div class="team-image-wrapper">
+                <img
+                  class="team-member-image"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png"
+                />
+              </div>
+              <p class="text-blk name">Davis George</p>
+              <p class="text-blk position">CEO</p>
+              <p class="text-blk feature-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="social-icons-new">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    class="twitter-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
+                  />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    class="facebook-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+          >
+            <div class="card">
+              <div class="team-image-wrapper">
+                <img
+                  class="team-member-image"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png"
+                />
+              </div>
+              <p class="text-blk name">Davis George</p>
+              <p class="text-blk position">CEO</p>
+              <p class="text-blk feature-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="social-icons-new">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    class="twitter-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
+                  />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    class="facebook-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+          >
+            <div class="card">
+              <div class="team-image-wrapper">
+                <img
+                  class="team-member-image"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                />
+              </div>
+              <p class="text-blk name">Davis George</p>
+              <p class="text-blk position">CEO</p>
+              <p class="text-blk feature-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="social-icons-new">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    class="twitter-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
+                  />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    class="facebook-icon"
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer" style="color: black">
+      <div class="footer-container">
+        <div class="inner-footer"></div>
+        <!-- Logo and Location Section -->
+        <div class="footer-logo">
+          <div class="logo">
+            <img src="/images/Final_Logo.png" alt="CodingSavvy Logo" />
+          </div>
+          <div class="location">
+            <p>
+              <strong>Address:</strong><br />123 Main Street, City, Warje, Pune,
+              India
+            </p>
+            <button
+              class="btn view-map"
+              onclick="window.open('https://goo.gl/maps/example', '_blank')"
+            >
+              View on Map
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Footer Links (Explore, Quick Links, Follow Us) -->
+        <div class="footer-links">
+          <!-- Explore Section -->
+          <div class="explore explore-footer">
+            <h3 class="footer-links-name">Explore</h3>
+            <ul>
+              <li><a href="/placement.html">Placements</a></li>
+              <li><a href="/resource.html">Free Resource</a></li>
+              <li><a href="/html/blog-html/blog.html">Blogs</a></li>
+              <li><a href="/courses-home.html">Our Courses</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Links Section -->
+          <div class="quick-link quick-link-footer">
+            <h3 class="footer-links-name">Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="/contactUs.html">Contact Us</a></li>
+              <li><a href="/aboutUs.html">About Us</a></li>
+              <li><a href="/contactUs.html">Face an Issue</a></li>
+            </ul>
+          </div>
+
+          <!-- Follow Us Section with Icons -->
+          <div class="follow-us follow-us-footer">
+            <h3 class="footer-links-name">Follow Us</h3>
+            <ul class="social-icons">
+              <li>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  class="social-icon instagram"
+                  ><i class="bi bi-instagram"></i> Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  class="social-icon facebook"
+                  ><i class="bi bi-facebook"></i> Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  class="social-icon linkedin"
+                  ><i class="bi bi-linkedin"></i> LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  class="social-icon twitter"
+                  ><i class="bi bi-twitter"></i> twitter</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Subscribe Section -->
+        <div class="footer-subscribe">
+          <h3>Subscribe</h3>
+          <p>Simply enter your email below:</p>
+          <div class="subscribe-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button class="btn">Subscribe</button>
+          </div>
+          <small
+            >By subscribing, you agree to receive emails from us and acknowledge
+            our Privacy Policy.</small
+          >
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 CodingSavvy, Inc. All rights reserved.</p>
+        <div class="policy-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Add FontAwesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script>
+      document
+        .getElementById("view-map")
+        .addEventListener("click", function () {
+          window.open("https://goo.gl/maps/example", "_blank");
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="/javascript/aboutUs.js"></script>
+  </body>
+</html>
